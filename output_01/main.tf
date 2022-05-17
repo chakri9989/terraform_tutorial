@@ -30,4 +30,5 @@ output "output_instance_id" {
 }
 output "output_core_count" {
     value = aws_instance.april_web_instance.cpu_core_count
+    sensitive = true
 }
